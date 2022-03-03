@@ -6,7 +6,7 @@ export default function ContactSidebar(): JSX.Element {
   return (
     <div className="contact-sidebar__container">
       <div className="search-panel__container">
-        <input placeholder="Поиск" type="text" />
+        <input className="search-input" placeholder="Поиск" type="text" />
       </div>
       <div className="contact-sidebar__content">
         <div className="contact-card">
@@ -14,6 +14,7 @@ export default function ContactSidebar(): JSX.Element {
             <ProfileSVG />
           </div>
           <div className="contact-name">Букин</div>
+          <div className="contact-status">Online</div>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import ContactSidebar from '../../modules/ContactSidebar';
-import './Room.css';
+import './room.css';
 
 function Room(): JSX.Element {
   return (

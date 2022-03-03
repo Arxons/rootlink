@@ -1,6 +1,6 @@
 import React from 'react';
 import ProfileSVG from '../../svg/ProfileSVG';
-import './ContactSidebar.css';
+import './contactSidebar.css';
 
 export default function ContactSidebar(): JSX.Element {
   return (

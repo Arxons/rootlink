@@ -1,7 +1,9 @@
 import React from 'react';
 
+import AuthPage from './pages/AuthPage';
+
 function App(): JSX.Element {
-  return <div>test!</div>;
+  return <AuthPage />;
 }
 
 export default App;

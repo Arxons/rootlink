@@ -1,9 +1,8 @@
 import React from 'react';
-
-import AuthPage from './pages/AuthPage';
+import Room from './pages/Room';
 
 function App(): JSX.Element {
-  return <AuthPage />;
+  return <Room />;
 }
 
 export default App;

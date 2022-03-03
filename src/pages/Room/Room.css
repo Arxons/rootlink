@@ -1,0 +1,5 @@
+.room-page__container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(180deg, rgb(242, 127, 98) 0%, rgb(17, 31, 78) 100%);
+}

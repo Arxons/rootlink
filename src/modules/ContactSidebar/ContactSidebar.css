@@ -1,0 +1,86 @@
+.contact-sidebar__container {
+  width: 500px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.418);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.search-panel__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgb(51, 50, 50);
+  position: sticky;
+}
+
+.search-input {
+  width: 60%;
+  min-height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: rgb(210, 210, 210);
+  font-size: 20px;
+  padding-left: 35px;
+  padding-right: 10px;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.contact-sidebar__content {
+  height: 100%;
+  overflow-y: scroll;
+  padding-right: 20px;
+}
+
+.contact-card {
+  margin-top: 10px;
+  width: 400px;
+  height: 100px;
+  background-color: rgba(17, 31, 78, 0.596);
+  border-radius: 10px;
+  color: white;
+  display: grid;
+  grid-template-areas: 'avatar name name' 'avatar status status';
+}
+
+.contact-img {
+  grid-area: avatar;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-name {
+  grid-area: name;
+  display: flex;
+  align-items: center;
+}
+
+.contact-status {
+  grid-area: status;
+  display: flex;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(128, 128, 128, 0.363);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.555);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.747);
+}

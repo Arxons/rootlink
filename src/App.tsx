@@ -1,12 +1,8 @@
 import React from 'react';
-import Room from './pages/Room/index';
+import Room from './pages/Room';
 
 function App(): JSX.Element {
-  return (
-    <div>
-      <Room />
-    </div>
-  );
+  return <Room />;
 }
 
 export default App;

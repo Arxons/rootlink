@@ -15,6 +15,7 @@
   display: block;
   margin-bottom: 10%;
   opacity: 0.8;
+  transition: 0.3s ease-in-out;
 }
 
 .min-user-svg,
@@ -67,6 +68,38 @@
   text-align: center;
   font-weight: 400;
   margin-bottom: 5%;
+}
+
+.auth-error {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  background-color: rgb(177, 34, 34);
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: white;
+  min-height: 50px;
+  margin-bottom: 5%;
+}
+
+.loading-svg {
+  display: block;
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10%;
+}
+
+.circle-loading {
+  stroke-width: 8;
+  stroke: white;
+  stroke-dasharray: 50.26548245743669 50.26548245743669;
+  fill: none;
+  stroke-linecap: round;
+  opacity: 0.8;
 }
 
 @media (max-width: 1280px) {
@@ -134,5 +167,11 @@
 @media (max-width: 550px) {
   .auth-form {
     width: 70%;
+  }
+}
+
+@media (max-height: 730px) {
+  .auth-form {
+    padding-top: 5vh;
   }
 }

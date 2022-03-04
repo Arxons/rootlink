@@ -1,15 +1,6 @@
 import { useState, useCallback } from 'react';
 
-interface IUseHttp {
-  isLoading: boolean;
-  request: any;
-}
-
-interface IRespData {
-  token?: string;
-  userID?: string;
-  message?: string;
-}
+import { IUseHttp, IRespData } from '../interfaces';
 
 const useHttp = (): IUseHttp => {
   const [isLoading, setIsLoading] = useState(false);

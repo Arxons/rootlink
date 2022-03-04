@@ -1,0 +1,47 @@
+.message__container {
+  height: 90%;
+  background-color: rgba(0, 0, 0, 0.158);
+  display: flex;
+  padding: 0 40px 40px 40px;
+  flex-direction: column-reverse;
+}
+
+.message__card {
+  width: 20%;
+  min-height: 50px;
+  background-color: rgba(255, 255, 255, 0.459);
+  border-radius: 5px;
+  padding: 10px 10px 20px 10px;
+  margin-top: 20px;
+}
+.message-content {
+  width: 80%;
+  white-space: pre-wrap;
+}
+.person {
+  position: relative;
+  left: 80%;
+  background-color: rgba(34, 8, 185, 0.404);
+  color: aliceblue;
+}
+
+.no-person {
+  font-weight: 400;
+}
+.input__container {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-input {
+  margin: 0 0 0 0;
+  margin-right: 30px;
+}
+
+.message-send__button {
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+}
